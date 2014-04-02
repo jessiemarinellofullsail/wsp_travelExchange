@@ -45,6 +45,26 @@ table {
 
 /* End resets */
 
-h1{
-color: red;
+nav li {
+	float: left;
+}
+
+nav ul {
+	margin: 20px 0 0 0;
+}
+
+nav li a {
+	color: #979695;
+	font-family: SourceSansPro, sans-serif;
+	font-size: 20px;
+	font-weight: regular;
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+li a:after {
+	margin: 0 25px 0 0;
+	content: "";
 }
