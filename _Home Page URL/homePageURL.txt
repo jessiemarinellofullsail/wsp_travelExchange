@@ -1,0 +1,9 @@
+http://jessiemarinellofullsail.github.io/wsp_travelExchange/index
+
+Tyler,
+
+As you will see from my index, I have not started the design of my site. I am finding that I am having trouble figuring out what I want to do and there is also a HUGE learning curve for me to understand how to use frameworks to help me with my markup and CSS. I have my color palette, fonts, and photos, but I’m not sure how this site is going to come together. I have been following along with CSS: Frameworks and Grids with James Williamson on Lynda.com, but at a painstakingly slow pace. I am having a lot of trouble with this assignment/class and am trying to use the many resources available to figure out what I am doing. I don’t want to apply any styles and insert my content to the frameworks until I understand how to utilize frameworks in the best way. I feel like if I just starting putting content in that I am going to have to redo most of it and cause my self an even bigger headache. If you have any suggestions for my workflow, I will greatly appreciate it. I hope you take this into consideration while looking at this week’s assignment.
+
+Sincerely, 
+
+Jessie Marinello
