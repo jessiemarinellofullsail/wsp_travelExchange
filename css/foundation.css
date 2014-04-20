@@ -1672,8 +1672,8 @@ meta.foundation-mq-topbar {
   list-style: none;
   border-style: solid;
   border-width: 1px;
-  background-color: #f5b3af;
-  border-color: #f08f8a;
+  background-color: #fff;
+  border-color: #fff;
   border-radius: 3px; }
   .breadcrumbs > * {
     margin: 0;

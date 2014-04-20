@@ -10,16 +10,16 @@
 <body>   
      <div class="row">
     <div class="large-3 columns">
-      <h1><img src="images/AHE_logo.jpg" /></h1>
+      <h1><img src="images/AHE_logo1.jpg" /></h1>
     </div>
     <div class="large-9 columns">
       <ul class="right button-group">
-      <li><a href="#" class="button">Home</a></li>
-      <li><a href="#" class="button">Favorites</a></li>
-      <li><a href="#" class="button">Login</a></li>
-      <li><a href="#" class="button">Register</a></li>
-      <li><a href="#" class="button">Details</a></li>
-      <li><a href="#" class="button">Search</a></li>
+      <li><a href="index.html" class="button">Home</a></li>
+      <li><a href="login.html" class="button">Login</a></li>
+      <li><a href="search.html" class="button">Search</a></li>
+      <li><a href="results.html" class="button">Search Results</a></li>
+      <li><a href="details.html" class="button">Details</a></li>
+      <li><a href="favorites.html" class="button">Passport</a></li>
       </ul>
      </div>
    </div>
@@ -28,41 +28,38 @@
  
 <!-- First Band (Slider) -->
  
-  <!--<div class="row">
+  <div class="row">
     <div class="large-12 columns">
     <div id="slider">
-      <img src="images/buildingOnCliff-sized.jpg" />
+      <img src="images/ricePaddies-sized.jpg"/>
+      <h3>Become a Member</h3>
     </div>
-    
-    <hr />
     </div>
-  </div>    THIS IS MODIFIED FOR REGISTRATION PAGE-->
-  
-  
+  </div>
   
   <!-- THIS IS REGISTRATION FORM-->
   
  <form> 
  <div class="row"> 
- 	<div class="large-12 columns"> 
- 		<label>Input Label <input type="text" placeholder="large-12.columns" /> </label> 
+ 	<div class="large-6 columns"> 
+ 		<label>Name<input type="text" placeholder="First &amp; Last Name"/></label> 
  	</div> 
  </div>
  
  <div class="row"> 
  	<div class="large-4 columns"> 
- 		<label>Input Label <input type="text" placeholder="large-4.columns" /> </label> 
+ 		<label>Password<input type="password" name="pwd" maxlength="8" placeholder="Password" /> </label> 
  	</div> 
  	
  <div class="large-4 columns"> 
- 	<label>Input Label <input type="text" placeholder="large-4.columns" /> </label> 
+ 	<label>Repeat Password<input type="password" name="pwd" maxlength="8" placeholder="Password" /> </label> 
  </div> 
  
  <div class="large-4 columns"> 
  	<div class="row collapse"> 
- 		<label>Input Label</label> 
+ 		<label>Email</label> 
  		<div class="small-9 columns"> 
- 			<input type="text" placeholder="small-9.columns" /> 
+ 			<input type="text" placeholder="Email Address" /> 
  </div> 
  <div class="small-3 columns"> <span class="postfix">.com</span> 
  </div> 
@@ -71,47 +68,27 @@
  </div> 
  
  <div class="row"> 
- 	<div class="large-12 columns"> 
- 		<label>Select Box 
+ 	<div class="large-6 columns"> 
+ 		<label>Home Country
  		<select> 
-	 		<option value="husker">Husker</option> 
-	 		<option value="starbuck">Starbuck</option> 
-	 		<option value="hotdog">Hot Dog</option> 
-	 		<option value="apollo">Apollo</option> 
+	 		<option value="usa">USA</option> 
+	 		<option value="mars">Mars</option> 
+	 		<option value="bahamas">Bahamas</option> 
+	 		<option value="uraguay">Uraguay</option> 
  		</select> 
  		</label> 
  	</div> 
  </div> 
- 
- <div class="row"> 
- 	<div class="large-6 columns"> 
- 		<label>Choose Your Favorite</label> 
- 		<input type="radio" name="pokemon" value="Red" id="pokemonRed">
-		<label for="pokemonRed">Red</label> 
-		<input type="radio" name="pokemon" value="Blue" id="pokemonBlue">
-		<label for="pokemonBlue">Blue</label> 
- 	</div> 
- 
- <div class="large-6 columns"> 
- 	<label>Check these out</label> 
-		 <input id="checkbox1" type="checkbox">
-		 <label for="checkbox1">Checkbox 1</label> 
-		 <input id="checkbox2" type="checkbox">
-		 <label for="checkbox2">Checkbox 2</label> 
- </div> 
- </div> 
- 
- <div class="row"> 
- 	<div class="large-12 columns"> 
- 		<label>Textarea Label <textarea placeholder="small-12.columns"></textarea> 
- </label> 
- </div> 
- </div> 
  </form>
   
+ <div class="row">
+     <div class="small-2 columns">
+       <a href="#" class="radius button left">Submit!</a>
+     </div>
+   </div>
+ </div>
   
-  
-<!-- Three-up Content Blocks -->
+<!-- Three-up Content Block
  
   <div class="row">
     <div class="large-4 columns">
@@ -134,7 +111,7 @@
   
     </div>
     
-<!-- Call to Action Panel -->
+Call to Action Panel
 <div class="row">
     <div class="large-12 columns">
     
@@ -152,7 +129,7 @@
       </div>
       
     </div>
-  </div>
+  </div>-->
  
   <!-- Footer -->
   
@@ -161,14 +138,14 @@
       <hr />
       <div class="row">
         <div class="large-6 columns">
-          <p>© Copyright no one at all. Go to town.</p>
+          <p>© Copyright Adventure Home Exchanges</p>
         </div>
         <div class="large-6 columns">
           <ul class="inline-list right">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
+         <li><a href="#">Contact Us</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">FAQ</a></li>
+         <li><a href="#">Legal</a></li>
           </ul>
         </div>
       </div>
