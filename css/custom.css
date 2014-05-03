@@ -1,6 +1,36 @@
 /* -------------------------------------------------- 
-   Custom styles
------------------------------------------------------
+   Fonts
+-----------------------------------------------------*/
+@font-face {
+	font-family: norwester !important;
+	src: url('../fonts/norwester/norwester.otf') !important;
+}
+
+@font-face {
+	font-family: norwester !important;
+	src: url('../fonts/Barrio/Barrio-Regular.otf') !important;
+}
+
+@font-face {
+	font-family: norwester !important;
+	src: url('../fonts/wolf_in_the_city/Wolf in the City.otf') !important;
+}
+
+@font-face {
+	font-family: norwester !important;
+	src: url('../fonts/nautilus/Nautilus.otf') !important;
+}
+
+#slider h1{
+	   position: absolute; 
+	   bottom: 40px; 
+	   left: 680px;
+	   width: 100%; 
+	   font-family: Barrio, sans-serif;
+	   font-weight: regular;
+	   text-decoration: none;
+	   color: white;
+}
 
 /* -------------------------------------------------- 
   Global resets
