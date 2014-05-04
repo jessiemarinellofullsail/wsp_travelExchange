@@ -2,99 +2,49 @@
    Fonts
 -----------------------------------------------------*/
 @font-face {
-	font-family: norwester !important;
-	src: url('../fonts/norwester/norwester.otf') !important;
-}
-
+  font-family: norwester !important;
+  src: url("../fonts/norwester/norwester.otf") !important; }
 @font-face {
-	font-family: norwester !important;
-	src: url('../fonts/Barrio/Barrio-Regular.otf') !important;
-}
-
+  font-family: Barrio !important;
+  src: url("../fonts/Barrio/Barrio-Regular.otf") !important; }
 @font-face {
-	font-family: norwester !important;
-	src: url('../fonts/wolf_in_the_city/Wolf in the City.otf') !important;
-}
-
+  font-family: wolf_in_the_city !important;
+  src: url("../fonts/wolf_in_the_city/Wolf in the City.otf") !important; }
 @font-face {
-	font-family: norwester !important;
-	src: url('../fonts/nautilus/Nautilus.otf') !important;
-}
-
-#slider h1{
-	   position: absolute; 
-	   bottom: 40px; 
-	   left: 680px;
-	   width: 100%; 
-	   font-family: Barrio, sans-serif;
-	   font-weight: regular;
-	   text-decoration: none;
-	   color: white;
-}
+  font-family: nautilus !important;
+  src: url("../fonts/nautilus/Nautilus.otf") !important; }
+/* -------------------------------------------------- 
+   font styles
+-----------------------------------------------------*/
+.fontStyle, h3 {
+  font-family: nautilus, sans-serif;
+  color: #e8554e; }
 
 /* -------------------------------------------------- 
-  Global resets
+   slider styles
 -----------------------------------------------------*/
+#slider h1 {
+  position: absolute;
+  bottom: 40px;
+  left: 680px;
+  width: 100%;
+  font-family: Barrio, sans-serif;
+  font-weight: regular;
+  text-decoration: none;
+  color: #f6f7f0; }
 
 /* -------------------------------------------------- 
-   top navigation styles
+   Three-up Content Blocks styles (home page)
 -----------------------------------------------------*/
+#ctaA h4 {
+  color: #61b6c5; }
+
+#ctaB h4 {
+  color: #f7c32b; }
+
+#ctaC h4 {
+  color: #74b364; }
 
 /* -------------------------------------------------- 
-  header styles
+   h3 styles
 -----------------------------------------------------*/
-
-/* -------------------------------------------------- 
-   main article styles
------------------------------------------------------*/
-
-/* -------------------------------------------------- 
-   forms styles
------------------------------------------------------*/
-
-/* -------------------------------------------------- 
-   sidebar styles
------------------------------------------------------*/
-
-/* -------------------------------------------------- 
-   news styles
------------------------------------------------------*/
-
-/* -------------------------------------------------- 
-   footer styles
------------------------------------------------------*/
-
-/* -------------------------------------------------- 
-   Smaller screen styles
------------------------------------------------------*/
-@media only screen and (max-width: 720px) {
-
-/* -------------------------------------------------- 
-   top navigation styles
------------------------------------------------------*/
-
-/* -------------------------------------------------- 
-  header styles
------------------------------------------------------*/
-
-/* -------------------------------------------------- 
-   main article styles
------------------------------------------------------*/
-
-/* -------------------------------------------------- 
-   forms styles
------------------------------------------------------*/
-
-/* -------------------------------------------------- 
-   sidebar styles
------------------------------------------------------*/
-
-/* -------------------------------------------------- 
-   news styles
------------------------------------------------------*/
-
-/* -------------------------------------------------- 
-   footer styles
------------------------------------------------------*/
-	
-}

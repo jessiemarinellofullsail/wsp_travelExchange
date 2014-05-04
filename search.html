@@ -8,101 +8,159 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
-<body>   
-     <div class="row">
-    <div class="large-3 columns">
-      <a href="index.html"><img src="images/AHE_logo1.jpg"/></a>
-    </div>
-    <div class="large-9 columns">
-      <ul class="right button-group">
-      <li><a href="index.html" class="button">Home</a></li>
-      <li><a href="login.html" class="button">Login</a></li>
-      <li><a href="search.html" class="button">Search</a></li>
-      <li><a href="results.html" class="button">Search Results</a></li>
-      <li><a href="details.html" class="button">Details</a></li>
-      <li><a href="favorites.html" class="button">Passport</a></li>
-      </ul>
-     </div>
-   </div>
-  
-<!-- End Header and Nav -->
- 
-<!-- First Band (Slider) -->
- 
-  <div class="row">
-    <div class="large-12 columns">
-    <div id="slider">
-      <img src="images/buildingOnCliff-sized.jpg" />
-    </div>
-    
-    <hr />
-    </div>
-  </div>
-  
-<!-- Three-up Content Blocks -->
- 
-  <div class="row">
-    <div class="large-4 columns">
-      <img src="images/lakeHouse-sized.jpg" />
-      <h4> <a href="search.html" style="display: inline; color:#61B6C5;">Find Your Vacation Home</a></h4>
-      <p>Your Exchange can be anything you want it to be. Plan it on your time, travel where you want, on your schedule. Partner with like-minded Members to get everyone’s ideal vacation. Travel your way and live like a local.
-      </p>
-    </div>
-    
-    <div class="large-4 columns">
-      <img src="images/member.jpg" />
-      <h4> <a href="register.html" style="display: inline; color:#F7C32B;">Become A Member</a></h4>
-      <p>Become part of the Home Exchange Community! Over 50,000 Members have already made over hundreds of thousands of successful exchanges all over the world.</p>
-    </div>
-    
-    <div class="large-4 columns">
-      <img src="images/palmTree-sized1.jpg" />
-      <h4> <a href="#" style="display: inline; color:#74B364;">Member Reviews</a></h4>
-      <p>Who better to tell you how great Adventure Home Exchange is than our very own Members? Learn what living like a local is all about from a few of our biggest fans.
-      </p>
-    </div>
-  
-    </div>
-    
-<!-- Call to Action Panel -->
+
+<body>
+<!-- Header and Nav -->   
 <div class="row">
+	<div class="large-3 columns">
+		<a href="index.html"><img src="images/AHE_logoColors.jpg"/></a>
+	</div>
+	<div class="large-9 columns">
+	<ul class="right button-group">
+		<li><a href="index.html" class="button">Home</a></li>
+		<li><a href="login.html" class="button">Login</a></li>
+		<li><a href="search.html" class="button">Search</a></li>
+		<li><a href="results.html" class="button">Search Results</a></li>
+		<li><a href="details.html" class="button">Details</a></li>
+		<li><a href="favorites.html" class="button">Passport</a></li>
+	</ul>
+	</div>
+</div>
+  
+<!-- First Band (Slider) -->
+  <div class="row">
     <div class="large-12 columns">
-    
-      <div class="panel">
-        <h4>Get in touch!</h4>
-            
-        <div class="row">
-          <div class="large-9 columns">
-            <p>We'd love to hear from you, you attractive person you.</p>
-          </div>
-          <div class="large-3 columns">
-            <a href="#" class="radius button right">Contact Us</a>
-          </div>
-        </div>
-      </div>
-      
+      		<img src="images/longRoad.jpg"/>
+      		<h1>Start your Adventure</h1>
+    	</div> 
+    <hr/>
     </div>
   </div>
+
+<!-- Search Form --> 
+<form> 
+<!--<div class="row"> 
+	<div class="large-12 columns"> 
+		<label>Input Label <input type="text" placeholder="large-12.columns"/></label> 
+	</div> 
+</div> 
+
+<div class="row"> 
+	<div class="large-4 columns"> 
+		<label>Input Label <input type="text" placeholder="large-4.columns"/></label> 
+	</div> 
+	<div class="large-4 columns"> 
+		<label>Input Label <input type="text" placeholder="large-4.columns"/></label> 
+	</div> 
+	<div class="large-4 columns"> 
+		<div class="row collapse"> 
+			<label>Input Label</label> 
+	<div class="small-9 columns"> 
+		<input type="text" placeholder="small-9.columns"/> 
+	</div> 
+	<div class="small-3 columns"> 
+	<span class="postfix">.com</span> 
+	</div> 
+	</div> 
+	</div> 
+</div> -->
+<div class="row"> 
+	<div class="large-12 columns"> 
+		<label>Select Locations of Interest 
+			<select> 
+				<option value="California">California, USA</option> 
+				<option value="Florida">Florida, USA</option> 
+				<option value="New York">New York, USA</option> 
+				<option value="Canada">Canada</option> 
+				<option value="Costa Rica">Costa Rica</option> 
+				<option value="France">France</option> 
+				<option value="Germany">Germany</option> 
+				<option value="Italy">Italy</option>
+				<option value="UK">UK</option> 				
+			</select> 
+		</label> 
+	</div> 
+</div> 
+<div class="row"> 
+	<div class="large-6 columns"> 
+		<label>Choose Your Ideal Surroundings</label> 
+		<input type="radio" name="beach" value="Beach" id="beachHouse">
+			<label for="beachHouse">Beach</label> 
+		<input type="radio" name="city" value="City" id="largeCity">
+			<label for="largeCity">City</label> 
+		<input type="radio" name="countryside" value="Countryside" id="countryFarm">
+			<label for="countryFarm">Countryside</label>
+		<input type="radio" name="mountains" value="Mountains" id="mountainSki">
+			<label for="mountainSki">Mountains</label>
+		<input type="radio" name="lake" value="Lake" id="lakeHouse">
+			<label for="lakeHouse">Lake</label>
+	</div>
+</div>
+<div class="row"> 
+	<div class="large-12 columns"> 
+		<label>Choose Your Amenities</label> 
+		<input type="radio" name="washer" value="Washer" id="washerDryer">
+			<label for="washerDryer">Washer &amp; Dryer</label> 
+		<input type="radio" name="kitchen" value="Kitchen" id="fullKitchen">
+			<label for="fullKitchen">Full Kitchen</label> 
+		<input type="radio" name="bath" value="Bath" id="bathTub">
+			<label for="bathTub">Bath Tub</label> 
+		<input type="radio" name="balcony" value="Balcony" id="balcony">
+			<label for="balcony">Balcony</label> 
+		<input type="radio" name="fireplace" value="Fireplace" id="firePlace">
+			<label for="firePlace">Fireplace</label> 
+		<input type="radio" name="wifi" value="Wifi" id="wiFI">
+			<label for="wiFI">WIFI</label> 
+		<input type="radio" name="cable" value="Cable" id="cableTv">
+			<label for="cableTv">Cable</label> 
+	</div>
+</div>
+<div class="row"> 
+	<div class="large-6 columns"> 
+		<label>Sleeps</label> 
+		<input type="radio" name="people" value="2 people" id="twoPeople">
+			<label for="twoPeople">2 people</label> 
+		<input type="radio" name="people" value="3 people" id="threePeople">
+			<label for="threePeople">3 people</label> 
+		<input type="radio" name="people" value="4 people" id="fourPeople">
+			<label for="fourPeople">4 people</label>
+		<input type="radio" name="people" value="5 peoples" id="fivePeople">
+			<label for="fivePeople">5 people</label>
+		<input type="radio" name="people" value="6 people" id="sixPeople">
+			<label for="sixPeople">6+ people</label>
+	</div>
+<div class="large-6 columns"> 
+	<label>Exchange or One Way?</label> 
+		<input id="checkbox1" type="checkbox">
+		<label for="checkbox1">Exchange</label> 
+		<input id="checkbox2" type="checkbox">
+		<label for="checkbox2">One Way</label> 
+	</div> 
+</div> 
+</form>
+<div class="row">
+  <div class="large-4 columns">
+    <a href="register.html" class="radius button left">Search</a>
+  </div>
  
-  <!-- Footer -->
-  
-  <footer class="row">
-    <div class="large-12 columns">
-      <hr />
-      <div class="row">
-        <div class="large-6 columns">
-          <p>© Copyright Adventure Home Exchanges</p>
-        </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Legal</a></li>
-          </ul>
-        </div>
-      </div>
-    </div> 
-  </footer>
-      </body>
-  </html> 
+ <!-- Footer -->
+<footer class="row">
+	<div class="large-12 columns">
+	<hr />
+		<div class="row">
+		<div class="large-6 columns">
+		<p>© Copyright Adventure Home Exchanges</p>
+		</div>
+	<div class="large-6 columns">
+		<ul class="inline-list right">
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">Legal</a></li>
+		</ul>
+	</div>
+</div>
+</div> 
+</footer>
+</body>
+</html> 

@@ -1,0 +1,101 @@
+/* -------------------------------------------------- 
+   Fonts
+-----------------------------------------------------*/
+@font-face {
+  font-family: norwester !important;
+  src: url('../fonts/norwester/norwester.otf') !important;
+}
+
+
+@font-face {
+  font-family: Barrio !important;
+  src: url('../fonts/Barrio/Barrio-Regular.otf') !important;
+}
+
+
+@font-face {
+  font-family: wolf_in_the_city !important;
+  src: url('../fonts/wolf_in_the_city/Wolf in the City.otf') !important;
+}
+
+
+@font-face {
+  font-family: nautilus !important;
+  src: url('../fonts/nautilus/Nautilus.otf') !important;
+}
+
+
+
+// Brand Colors
+$yellow: #F7C32B;
+$lightBlue: #61B6C5;
+$darkBlue: #204a65;
+$pink: #e8554e;
+$green: #74B364;
+$softWhite: #F6F7F0;
+
+//Color usages
+$mainHeading: $pink;
+$ctaA: $lightBlue;
+$ctaB: $yellow;
+$ctaC: $green;
+
+
+/* -------------------------------------------------- 
+   font styles
+-----------------------------------------------------*/
+.fontStyle {
+	font-family: nautilus, sans-serif;
+	color: $pink;
+}
+
+
+/* -------------------------------------------------- 
+   slider styles
+-----------------------------------------------------*/
+#slider {
+	h1{
+	  position: absolute;
+	  bottom: 40px;
+	  left: 680px;
+	  width: 100%;
+	  font-family: Barrio, sans-serif;
+	  font-weight: regular;
+	  text-decoration: none;
+	  color: $softWhite;
+	 }
+}
+
+
+
+/* -------------------------------------------------- 
+   Three-up Content Blocks styles (home page)
+-----------------------------------------------------*/
+#ctaA {
+	h4{
+	color: $ctaA;
+	}
+}
+
+#ctaB {
+	h4{
+	color: $ctaB;
+	}
+}
+
+#ctaC {
+	h4{
+	color: $ctaC;
+	}
+}
+
+
+
+/* -------------------------------------------------- 
+   h3 styles
+-----------------------------------------------------*/
+h3 {
+	@extend .fontStyle
+}
+
+
